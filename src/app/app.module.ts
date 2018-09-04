@@ -20,4 +20,5 @@ import { WorkModule } from './modules/work/work.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}
