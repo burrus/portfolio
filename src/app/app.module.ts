@@ -7,7 +7,6 @@ import { AppRouting } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import { WorkModule } from './modules/work/work.module';
 
-
 @NgModule({
   declarations: [
     AppComponent
