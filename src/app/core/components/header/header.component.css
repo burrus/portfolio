@@ -3,10 +3,14 @@
 }
 
 .nav-link {
-  color: #444;
+  color: #333;
+  text-align: right;
 }
 
 .nav-link:hover {
-  color: #333;
   text-decoration: line-through;
+}
+
+p {
+  margin-bottom: 30px;
 }
