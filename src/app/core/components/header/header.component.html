@@ -1,8 +1,26 @@
-<div class="row">
+<div class="row align-items-center">
   <div class="col-8">
-    <h1 class="name">Tony&nbsp;Burrus</h1>
+    <h2 class="name">Tony&nbsp;Burrus</h2>
   </div>
-  <div class="col-4">
-    <h2>10</h2>
+  <div class="col-4 text-right mobile">
+    <div ngbDropdown class="d-inline-block">
+      <!-- FIXME: ngbDropdownToggle not working properly -->
+      <button ngbDropdownToggle class="btn btn-outline-primary" id="navMenu">Sort</button>
+      <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navMenu">
+        <a class="dropdown-item" href="/work">Work</a>
+        <a class="dropdown-item" href="/about">About</a>
+        <a class="dropdown-item" href="mailto:tony@burrus.me">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-4 desktop">
+    <a class="nav-link" href="/work">Work</a>
+    <a class="nav-link" href="/about">About</a>
+    <a class="nav-link" href="mailto:tony@burrus.me">Contact</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <p>iOS & UX Engineer</p>
   </div>
 </div>
