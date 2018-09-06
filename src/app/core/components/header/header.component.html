@@ -1,27 +1,15 @@
-<div class="row align-items-center">
-  <div class="col-8">
-    <h2 class="name">Tony&nbsp;Burrus</h2>
-  </div>
-  <div class="col-4 text-right mobile">
-    <div ngbDropdown class="d-inline-block">
-      <!-- FIXME: ngbDropdownToggle not working properly -->
-      <button ngbDropdownToggle class="btn btn-outline-primary" id="navMenu">Sort</button>
-      <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navMenu">
-        <a class="dropdown-item" href="/work">Work</a>
-        <a class="dropdown-item" href="/about">About</a>
-        <a class="dropdown-item" href="mailto:tony@burrus.me">Contact</a>
-      </div>
-    </div>
-  </div>
-  <!-- TODO: Use proper bootstrap navbar -->
-  <div class="col-4 navbar-right desktop">
-    <a class="nav-link" href="/work">Work</a>
-    <a class="nav-link" href="/about">About</a>
-    <a class="nav-link" href="mailto:tony@burrus.me">Contact</a>
-  </div>
-</div>
 <div class="row">
   <div class="col">
-    <p>iOS & UX Engineer</p>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-start">
+      <span><h2 class="navbar-brand name">Tony&nbsp;Burrus</h2><br><p>iOS & UX Engineer</p></span>
+      <button class="navbar-toggler btn" id="menuButton" type="button" data-toggle="collapse" data-target="#navbarToggler"  aria-expanded="false" aria-label="toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarToggler">
+        <img src="assets/icons/menu.svg" alt="menu icon">
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler" [ngbCollapse]="isCollapsed">
+        <a class="nav-item nav-link" [class.active]="path.includes('work')" href="/work">Work</a>
+        <a class="nav-item nav-link" [class.active]="path.includes('about')" href="/about">About</a>
+        <a class="nav-item nav-link" id="contact" href="mailto:tony@burrus.me">Contact</a>
+      </div>
+    </nav>
   </div>
 </div>

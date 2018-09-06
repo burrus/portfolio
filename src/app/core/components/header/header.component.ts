@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  constructor() {}
+  ngOnInit() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  isCollapsed = true;
+  path = window.location.href;
 }
