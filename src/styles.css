@@ -9,7 +9,11 @@
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
+  .container {
+    max-width: 75% !important;
+  }
+
   .mobile {
     visibility: hidden;
     display: none;
@@ -18,5 +22,11 @@
   .desktop {
     visibility: visible;
     display: inherit;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .container {
+    max-width: 65% !important;
   }
 }
