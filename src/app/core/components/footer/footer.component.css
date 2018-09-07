@@ -1,0 +1,15 @@
+.social-icons {
+  margin: 0 15px;
+}
+
+#divider {
+  margin: 15px 0 10px;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
