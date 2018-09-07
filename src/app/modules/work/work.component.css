@@ -1,0 +1,57 @@
+.row {
+  display: table-row;
+}
+
+.col-6 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.work-box {
+  color: white;
+}
+
+.work-box:hover {
+  color: #EBEBEB;
+}
+
+h3 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.last {
+  margin-bottom: 30px;
+}
+
+#hotwire {
+  background-color: #E73834;
+}
+
+#hotwire:hover {
+  background-color: #9C2624;
+}
+
+#forcely {
+  background-color: #21C476;
+}
+
+#forcely:hover {
+  background-color: #147848;
+}
+
+#stormy {
+  background-color: #458EE5;
+}
+
+#stormy:hover {
+  background-color: #2E5E99;
+}
+
+#hail {
+  background-color: #FFD32A;
+}
+
+#hail:hover {
+  background-color: #B3951D;
+}
