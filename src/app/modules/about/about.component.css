@@ -1,0 +1,15 @@
+h2 {
+  font-weight: 700;
+}
+
+p {
+  margin: 15px;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+#lastParagraph {
+  margin-bottom: 30px;
+}
