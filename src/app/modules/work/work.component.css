@@ -3,7 +3,11 @@
 }
 
 .description {
-  text-align: center;
+  text-align: justify;
+}
+
+br {
+  display: none;
 }
 
 .work-box {
@@ -57,6 +61,14 @@ a:hover {
     display: flex;
   }
 
+  .description {
+    text-align: center;
+  }
+
+  br {
+    display: none;
+  }
+
   .work-box, #hotwire {
     margin: 10px;
   }
@@ -65,4 +77,10 @@ a:hover {
   #forcelyLink { padding-left: 0; }
   #stormyLink { padding-right: 0; }
   #hailLink { padding-left: 0; }
+}
+
+@media only screen and (min-width: 769px) {
+  br {
+    display: inline;
+  }
 }
