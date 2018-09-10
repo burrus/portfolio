@@ -13,3 +13,7 @@ p {
 a:hover {
   text-decoration: line-through;
 }
+
+#angularIcon {
+  margin-bottom: 15px;
+}
