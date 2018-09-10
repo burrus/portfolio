@@ -2,6 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ForcelyComponent } from './components/forcely/forcely.component';
+import { HailComponent } from './components/hail/hail.component';
 import { HotwireComponent } from './components/hotwire/hotwire.component';
 import { StormyComponent } from './components/stormy/stormy.component';
 import { WorkComponent } from './work.component';
@@ -14,6 +15,10 @@ const routes: Routes = [
     {
       path: 'work/forcely',
       component: ForcelyComponent
+    },
+    {
+      path: 'work/hail',
+      component: HailComponent
     },
     {
       path: 'work/hotwire',
