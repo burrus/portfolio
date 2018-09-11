@@ -1,4 +1,39 @@
 #hotwire-logo {
-  height: 51px;
-  width: 238px;
+  height: 39px;
+  width: 182px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 15px;
+}
+
+.section-title {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.subsection-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.images {
+  display: block;
+}
+
+#last {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 426px) {
+  .images {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #last {
+    justify-content: center;
+  }
 }
