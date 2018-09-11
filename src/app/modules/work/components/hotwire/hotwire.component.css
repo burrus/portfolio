@@ -8,6 +8,10 @@ p {
   margin: 15px;
 }
 
+a:hover {
+  text-decoration: line-through;
+}
+
 .section-title {
   font-size: 1.25em;
   font-weight: 700;
