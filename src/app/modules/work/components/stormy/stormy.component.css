@@ -1,0 +1,32 @@
+h2 {
+  font-weight: 700;
+}
+
+p {
+  margin: 15px;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+.images {
+  display: block;
+}
+
+#last {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 769px) {
+  .images {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #email {
+    justify-content: center;
+  }
+}

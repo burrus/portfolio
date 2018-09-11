@@ -1,6 +1,5 @@
 h2 {
   font-weight: 900;
-  color: #21C476;
 }
 
 p {
@@ -15,10 +14,6 @@ a:hover {
   display: block;
 }
 
-.keywords {
-  text-align: center;
-}
-
 #last {
   margin-bottom: 30px;
 }
@@ -26,5 +21,6 @@ a:hover {
 @media only screen and (min-width: 769px) {
   .images {
     display: flex;
+    justify-content: space-between;
   }
 }
