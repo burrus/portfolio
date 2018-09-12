@@ -7,6 +7,7 @@ import { InstagramComponent } from './components/instagram/instagram.component';
   imports: [
     CommonModule
   ],
-  declarations: [InstagramComponent]
+  declarations: [InstagramComponent],
+  exports: [InstagramComponent]
 })
 export class SharedModule { }
