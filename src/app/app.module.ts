@@ -6,6 +6,7 @@ import { AboutModule } from './modules/about/about.module';
 import { AppComponent } from './app.component';
 import { AppRouting } from './app-routing.module';
 import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 import { WorkModule } from './modules/work/work.module';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { WorkModule } from './modules/work/work.module';
     BrowserModule,
     CoreModule,
     NgbModule.forRoot(),
+    SharedModule,
     WorkModule
   ],
   providers: [],
