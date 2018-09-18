@@ -1,4 +1,4 @@
-#hotwire-logo {
+#hotwireLogo {
   height: 39px;
   width: 182px;
   margin-bottom: 8px;
@@ -22,8 +22,21 @@ a:hover {
   font-weight: 600;
 }
 
+.image-row {
+  display: block;
+}
+
+.image-col {
+  margin: 0 auto;
+}
+
 .images {
   display: block;
+  margin: 30px 0;
+}
+
+.ios {
+  max-width: 100%;
 }
 
 #last {
@@ -31,8 +44,20 @@ a:hover {
 }
 
 @media only screen and (min-width: 426px) {
+  .image-row {
+    display: flex;
+  }
+
+  .image-col {
+    margin: 0;
+  }
+
   .images {
     display: flex;
+  }
+
+  .ios {
+    max-width: 100%;
   }
 }
 
