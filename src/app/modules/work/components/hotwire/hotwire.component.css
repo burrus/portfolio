@@ -12,6 +12,10 @@ a:hover {
   text-decoration: line-through;
 }
 
+.desktop {
+  display: none !important;
+}
+
 .section-title {
   font-size: 1.25em;
   font-weight: 700;
@@ -20,23 +24,15 @@ a:hover {
 .subsection-title {
   font-size: 1em;
   font-weight: 600;
-}
-
-.image-row {
-  display: block;
-}
-
-.image-col {
-  margin: 0 auto;
+  margin: 15px 0;
 }
 
 .images {
-  display: block;
   margin: 30px 0;
 }
 
 .ios {
-  max-width: 100%;
+  max-width: 65%;
 }
 
 #last {
@@ -44,16 +40,12 @@ a:hover {
 }
 
 @media only screen and (min-width: 426px) {
-  .image-row {
-    display: flex;
+  .mobile {
+    display: none !important;
   }
 
-  .image-col {
-    margin: 0;
-  }
-
-  .images {
-    display: flex;
+  .desktop {
+    display: flex !important;
   }
 
   .ios {
