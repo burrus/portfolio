@@ -33,6 +33,16 @@ a:hover {
 
 .ios {
   max-width: 65%;
+  margin: 10px 0;
+}
+
+.web {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+#angularSection {
+  margin-top: 10px;
 }
 
 #last {
@@ -50,6 +60,7 @@ a:hover {
 
   .ios {
     max-width: 100%;
+    margin: 0;
   }
 }
 
