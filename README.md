@@ -1,27 +1,13 @@
-# Burrus.Github.Io
+## About
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
+Angular is something I've been learning for the past couple of years so, while not the best choice for a static site, I decided to use it to build my portfolio. Besides my familiarity with it, Angular is pretty scalable and will allow me to easily change what my website looks like in the future without starting from scratch. Feel free to clone this repo and use it to jumpstart your own personal website.
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4. This repo does not include the `node_modules` directory so after cloning it make sure you run `npm install`. You can then run `ng serve` and navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Deployment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I used GitHub Pages to deploy this website and it's relatively straightforward to get it going. To make things easy, I suggest running `npm install -g angular-cli-ghpages` to install the [GitHub Pages](https://github.com/angular-schule/angular-cli-ghpages) node package.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Once this package is installed, you can run `ng build --prod --base-href "https://<user-name>.github.io/<repo>/"` to build the project. Afterwards you should see a build in the `dist` directory then you can just run `npx ngh` to deploy the site. At this point, you should be able to navigate to your website. You should also see your website referenced in the GitHub Pages section of your repository's settings.
