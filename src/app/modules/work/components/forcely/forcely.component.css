@@ -23,4 +23,8 @@ a:hover {
     display: flex;
     justify-content: space-between;
   }
+
+  .ios {
+    max-width: 95%;
+  }
 }
