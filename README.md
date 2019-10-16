@@ -18,4 +18,4 @@ Once this package is installed, you can run `ng build --prod --base-href "https:
 
 The code I've written for this project is [licensed](https://github.com/burrus/portfolio/blob/master/LICENSE) under MIT. In addition to [Angular](https://angular.io/) I've also used [Bootstrap](http://getbootstrap.com/), each of which have their own licenses.
 
-If you find this project useful feel free to [send me an email](mailto:tony@burrus.me) or reach out to me on [LinkedIn](https://www.linkedin.com/in/burrus/) or [Instagram](https://www.instagram.com/10mtony/).
+If you find this project useful feel free to [send me an email](mailto:tony@burrus.me) or reach out to me on [LinkedIn](https://www.linkedin.com/in/burrus/) or [Instagram](https://www.instagram.com/wyatony/).
