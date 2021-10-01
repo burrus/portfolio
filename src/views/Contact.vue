@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
-        <Header />
-        <div class="content">
+        <Header :showBackButton="true" />
+        <div class="form-content">
             <form id="contact" @submit.prevent="sendEmail">
                 <div class="fields">
                     <h3>What's on your mind?</h3>
@@ -91,6 +91,11 @@ export default {
 </script>
 
 <style scoped>
+.form-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contact,
 .fields {
     display: flex;

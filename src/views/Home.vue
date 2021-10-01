@@ -21,7 +21,7 @@
                 <router-link to="/" class="list"><b>Stormy.</b> A single-page weather app.</router-link>
             </li>
             <li>
-                <router-link to="/" class="list"><b>Hail.</b> A WWDC scholarship app.</router-link>
+                <router-link to="/hail" class="list"><b>Hail.</b> A WWDC scholarship app.</router-link>
             </li>
             <div class="contact">
                 <li class="title">

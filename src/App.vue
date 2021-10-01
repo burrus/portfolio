@@ -7,7 +7,7 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
 #app {
-  color: #2c3e50;
+  color: black;
   font-family: "Roboto Mono", sans-serif;
   text-align: center;
   -moz-osx-font-smoothing: grayscale;
@@ -15,13 +15,28 @@
 }
 
 .content {
-  display: flex;
-  justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.desktop {
-  align-self: center;
-  display: initial;
-  margin: 0 50px;
+.content a {
+    color: black;
+}
+
+.content a:hover {
+    text-decoration: line-through;
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content {
+        width: 50vw;
+    }
 }
 </style>
