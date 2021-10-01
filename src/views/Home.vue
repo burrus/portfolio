@@ -15,7 +15,7 @@
                 <router-link to="/" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
             </li>
             <li>
-                <router-link to="/" class="list"><b>Forcely.</b> A code enforcement logging app.</router-link>
+                <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement logging app.</router-link>
             </li>
             <li>
                 <router-link to="/stormy" class="list"><b>Stormy.</b> A single-page weather app.</router-link>

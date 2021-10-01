@@ -25,6 +25,11 @@ const routes = [
         name: "Stormy",
         component: () => import("../views/Stormy.vue"),
     },
+    {
+        path: "/forcely",
+        name: "Forcely",
+        component: () => import("../views/Forcely.vue"),
+    },
 ]
 
 const router = new VueRouter({

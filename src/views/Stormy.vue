@@ -11,10 +11,10 @@
                 <a href="https://teamtreehouse.com/burrus" target="_blank">Treehouse</a>
                 , but I expanded upon it by adding several other features.
             </p>
-            <div class="ios">
+            <!-- <div class="ios">
                 <img src="@/assets/img/stormy-1.png" alt="stormy-1">
                 <img src="@/assets/img/stormy-2.png" alt="stormy-2">
-            </div>
+            </div> -->
         </div>
         <Footer />
     </div>
