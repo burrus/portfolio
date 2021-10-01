@@ -16,8 +16,8 @@
                 spend a week in San Francisco attending the conference.
             </p>
             <div class="ios">
-                <img src="@/assets/img/wwdc-1.png" alt="wwdc 1">
-                <img src="@/assets/img/wwdc-2.png" alt="wwdc 2">
+                <img src="@/assets/img/wwdc-1.png" alt="wwdc-1">
+                <img src="@/assets/img/wwdc-2.png" alt="wwdc-2">
             </div>
         </div>
         <Footer />
@@ -25,12 +25,11 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
 
 export default {
-    name: "Home",
+    name: "Hail",
     components: {
         Footer,
         Header,

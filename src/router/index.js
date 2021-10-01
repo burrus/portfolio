@@ -20,6 +20,11 @@ const routes = [
         name: "Hail",
         component: () => import("../views/Hail.vue"),
     },
+    {
+        path: "/stormy",
+        name: "Stormy",
+        component: () => import("../views/Stormy.vue"),
+    },
 ]
 
 const router = new VueRouter({
