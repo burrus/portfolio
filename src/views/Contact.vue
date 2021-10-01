@@ -4,7 +4,7 @@
         <div class="content">
             <form id="contact" @submit.prevent="sendEmail">
                 <div class="fields">
-                    <h3>What are you working on?</h3>
+                    <h3>What's on your mind?</h3>
                     <input
                         @input="validateForm"
                         type="text"
@@ -98,7 +98,7 @@ export default {
 
 .contact {
     flex-direction: column;
-    height: 92vh;
+    height: 100vh;
     justify-content: space-between;
 }
 
@@ -155,27 +155,15 @@ input[type="submit"]:disabled {
 }
 
 @media only screen and (min-width: 600px) {
-    .contact {
-        height: 100vh;
-    }
-
     .fields {
         margin: 0;
         width: 60vw;
-    }
-
-    h3 {
-        text-align: left;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .fields {
         width: 40vw;
-    }
-
-    h3 {
-        text-align: center;
     }
 }
 </style>

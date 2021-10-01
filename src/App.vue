@@ -15,22 +15,13 @@
 }
 
 .content {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .desktop {
-    align-self: center;
-    display: none;
-    margin: 0 50px;
-}
-
-@media only screen and (min-width: 600px) {
-    .content {
-        justify-content: space-between;
-    }
-
-    .desktop {
-        display: initial;
-    }
+  align-self: center;
+  display: initial;
+  margin: 0 50px;
 }
 </style>

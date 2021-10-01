@@ -29,34 +29,27 @@ export default {
 
 <style scoped>
 a {
-    padding: 5px;
+    padding: 10px;
 }
+
 .container {
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 20px;
     width: 100%;
 }
+
 .footer {
     margin-top: 10px;
+    margin-bottom: -32px;
+    /* 
+        (h) height(<OpenSource />) = 16px
+        margin-bottom = -2h
+    */
 }
+
 .social {
     align-self: flex-end;
-}
-@media only screen and (min-width: 600px) {
-    .container {
-        justify-content: space-around;
-    }
-    .footer {
-        /* 
-            (h) height(<OpenSource />) = 16px
-            margin-bottom = -2h
-         */
-        margin-bottom: -32px;
-    }
-    .menu {
-        display: none;
-    }
 }
 </style>

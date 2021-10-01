@@ -9,7 +9,7 @@
 <script>
 export default {
     name: "Header",
-};
+}
 </script>
 
 <style scoped>
@@ -27,8 +27,4 @@ export default {
     color: black;
     text-decoration: none;
 }
-
-/* @media only screen and (min-width: 1000px) {
-    .name {}
-} */
 </style>
