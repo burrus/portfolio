@@ -12,7 +12,7 @@
                 <router-link to="/" class="list"><b>HotelTonight.</b> February 2019 - May 2020.</router-link>
             </li>
             <li>
-                <router-link to="/" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
+                <router-link to="/hotwire" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
             </li>
             <li>
                 <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement logging app.</router-link>

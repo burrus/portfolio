@@ -30,6 +30,11 @@ const routes = [
         name: "Forcely",
         component: () => import("../views/Forcely.vue"),
     },
+    {
+        path: "/hotwire",
+        name: "Hotwire",
+        component: () => import("../views/Hotwire.vue"),
+    },
 ]
 
 const router = new VueRouter({
