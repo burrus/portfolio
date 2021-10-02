@@ -35,6 +35,11 @@ const routes = [
         name: "Hotwire",
         component: () => import("../views/Hotwire.vue"),
     },
+    {
+        path: "/hoteltonight",
+        name: "HotelTonight",
+        component: () => import("../views/HotelTonight.vue"),
+    },
 ]
 
 const router = new VueRouter({

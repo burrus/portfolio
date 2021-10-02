@@ -10,7 +10,7 @@
             <p>
                 As an 
                 <a href="https://itunes.apple.com/us/app/hotwire/id566635048?mt=8" target="_blank">iOS</a> 
-                developer here I worked on implementing in-app customer service messaging as well as updating 
+                engineer here I worked on implementing in-app customer service messaging as well as updating 
                 the reviews section on the details screen to name a few. I learned a lot about how an agile 
                 engineering team operates and picked up a lot of new skills along the way.
             </p>

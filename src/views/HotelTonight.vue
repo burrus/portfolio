@@ -4,27 +4,29 @@
         <div class="content">
             <p>
                 <span class="work-title">HotelTonight</span> 
-                helps you get great deals on name-brand hotels and car rentals around the world 
-                at a fraction of the price.
+                helps you get amazing last-minute deals at top-rated hotels.
             </p>
             <p>
                 As an 
-                <a href="https://itunes.apple.com/us/app/hotwire/id566635048?mt=8" target="_blank">iOS</a> 
-                developer here I worked on implementing in-app customer service messaging as well as updating 
-                the reviews section on the details screen to name a few. I learned a lot about how an agile 
-                engineering team operates and picked up a lot of new skills along the way.
+                <a href="https://apps.apple.com/us/app/hoteltonight-hotel-deals/id407690035" target="_blank">iOS</a> 
+                engineer here I worked on implementing the <i>Weekend Escapes</i> feature, the 
+                <i>Account Achievements</i> section, and the <i>Sift</i> implementation (fraud protocol) to name a few.
+                I also did some work for the Web team implementing the <i>Seasonal Sweepstakes</i> form that was used by more 
+                than 80k people in its first month.
             </p>
             <p>
-                I also spend some time working on the UX Labs team and I often found it frustrating to recruit 
-                users for moderated studies. To solve this problem, I built an angular web app that tapped into 
-                our customer database to automate the entire recruiting process. This project was a learning experience 
-                for me as it was the first time I built a web app from scratch. I was responsible for all the research,
-                design, and front-end development on this project.
+                I was lucky enough to join HT in early 2019, just in time for the acquisition by Airbnb.
             </p>
-            <!-- <div class="ios">
-                <img src="@/assets/img/wwdc-1.png" alt="wwdc-1">
-                <img src="@/assets/img/wwdc-2.png" alt="wwdc-2">
-            </div> -->
+            <div class="images" v-viewer="{transition: false}">
+                <img src="@/assets/img/hoteltonight-1.png" alt="Weekend Escapes 1/3">
+                <img src="@/assets/img/hoteltonight-2.png" alt="Weekend Escapes 2/3">
+                <img src="@/assets/img/hoteltonight-3.png" alt="Weekend Escapes 3/3">
+                <img src="@/assets/img/hoteltonight-4.png" alt="Account achievements 1/3">
+                <img src="@/assets/img/hoteltonight-5.png" alt="Account achievements 2/3">
+                <img src="@/assets/img/hoteltonight-6.png" alt="Account achievements 3/3">
+                <img src="@/assets/img/hoteltonight-7.png" alt="Fraud protocol flow excerpts">
+                <img src="@/assets/img/hoteltonight-8.png" alt="Seasonal sweepstakes form">
+            </div>
         </div>
         <Footer />
     </div>
@@ -33,6 +35,11 @@
 <script>
 import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
+
+import "viewerjs/dist/viewer.css"
+import VueViewer from "v-viewer"
+import Vue from "vue"
+Vue.use(VueViewer)
 
 export default {
     name: "HotelTonight",
@@ -44,19 +51,4 @@ export default {
 </script>
 
 <style scoped>
-    .title {
-        color: black;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .ios {
-        margin-top: 25px;
-        text-align: center;
-    }
-
-    img {
-        max-width: 200px;
-        padding: 10px;
-    }
 </style>

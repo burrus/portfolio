@@ -9,7 +9,7 @@
                 <router-link to="/" class="list"><b>Airbnb.</b> May 2020 - Present.</router-link>
             </li>
             <li>
-                <router-link to="/" class="list"><b>HotelTonight.</b> February 2019 - May 2020.</router-link>
+                <router-link to="/hoteltonight" class="list"><b>HotelTonight.</b> February 2019 - May 2020.</router-link>
             </li>
             <li>
                 <router-link to="/hotwire" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
