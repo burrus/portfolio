@@ -8,8 +8,8 @@
                 weather forecast from anywhere in the world. I used the 
                 <a href="https://darksky.net/dev" target="_blank">Dark Sky Weather API</a> 
                 to grab weather conditions. This app was based on an app from 
-                <a href="https://teamtreehouse.com/burrus" target="_blank">Treehouse</a>
-                , but I expanded upon it by adding several other features.
+                <a href="https://teamtreehouse.com/burrus" target="_blank">Treehouse</a>, 
+                but I expanded upon it by adding several other features.
             </p>
             <!-- <div class="ios">
                 <img src="@/assets/img/stormy-1.png" alt="stormy-1">

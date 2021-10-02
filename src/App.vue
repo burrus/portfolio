@@ -16,7 +16,7 @@
 
 .content {
     width: 90vw;
-    margin: 0 auto;
+    margin: 25px auto 0;
     text-align: left;
 }
 
@@ -36,6 +36,7 @@
 
 @media only screen and (min-width: 1000px) {
     .content {
+        margin-top: 0;
         width: 50vw;
     }
 }

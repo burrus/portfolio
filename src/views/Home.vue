@@ -30,7 +30,7 @@
                 <li>
                     <router-link to="/contact" class="list">
                         <span v-if="ip">Hello {{ ip }} 👋🏾</span>
-                        <span v-if="!ip">Hello 👋🏾</span>
+                        <span v-if="!ip">Hello there 👋🏾</span>
                     </router-link>
                 </li>
             </div>

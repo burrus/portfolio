@@ -1,5 +1,5 @@
 <template>
-    <div class="hotwire">
+    <div class="hoteltonight">
         <Header :showBackButton=true />
         <div class="content">
             <p>
@@ -15,21 +15,16 @@
                 engineering team operates and picked up a lot of new skills along the way.
             </p>
             <p>
-                I also spent some time working on the UX Labs team and I often found it frustrating to recruit 
+                I also spend some time working on the UX Labs team and I often found it frustrating to recruit 
                 users for moderated studies. To solve this problem, I built an angular web app that tapped into 
                 our customer database to automate the entire recruiting process. This project was a learning experience 
                 for me as it was the first time I built a web app from scratch. I was responsible for all the research,
                 design, and front-end development on this project.
             </p>
-            <div class="images">
-                <img src="@/assets/img/thmb/hw-liveperson-1-thmb.png" alt="hotwire-liveperson-1">
-                <img src="@/assets/img/thmb/hw-liveperson-2-thmb.png" alt="hotwire-liveperson-2">
-                <img src="@/assets/img/thmb/hw-reviews-1-thmb.png" alt="hotwire-reviews-1">
-                <img src="@/assets/img/thmb/hw-reviews-2-thmb.png" alt="hotwire-reviews-2">
-                <img src="@/assets/img/thmb/hw-automation-1-thmb.png" alt="hotwire-automation-1">
-                <img src="@/assets/img/thmb/hw-automation-2-thmb.png" alt="hotwire-automation-2">
-                <img src="@/assets/img/thmb/hw-automation-3-thmb.png" alt="hotwire-automation-3">
-            </div>
+            <!-- <div class="ios">
+                <img src="@/assets/img/wwdc-1.png" alt="wwdc-1">
+                <img src="@/assets/img/wwdc-2.png" alt="wwdc-2">
+            </div> -->
         </div>
         <Footer />
     </div>
@@ -40,7 +35,7 @@ import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
 
 export default {
-    name: "Hotwire",
+    name: "HotelTonight",
     components: {
         Footer,
         Header,
@@ -49,7 +44,7 @@ export default {
 </script>
 
 <style scoped>
-    .hotwire {
+    .hoteltonight {
         display: flex;
         flex-direction: column;
         height: 100vh;
@@ -62,13 +57,13 @@ export default {
         font-weight: bold;
     }
 
-    .images {
-        margin: 50px 0;
+    .ios {
+        margin-top: 25px;
         text-align: center;
     }
 
     img {
-        max-width: 50px;
+        max-width: 200px;
         padding: 10px;
     }
 </style>
