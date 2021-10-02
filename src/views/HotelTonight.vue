@@ -1,9 +1,9 @@
 <template>
-    <div class="hoteltonight">
+    <div class="work">
         <Header :showBackButton=true />
         <div class="content">
             <p>
-                <span class="title">Hotwire</span> 
+                <span class="work-title">HotelTonight</span> 
                 helps you get great deals on name-brand hotels and car rentals around the world 
                 at a fraction of the price.
             </p>
@@ -44,13 +44,6 @@ export default {
 </script>
 
 <style scoped>
-    .hoteltonight {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
     .title {
         color: black;
         font-size: 1.5em;

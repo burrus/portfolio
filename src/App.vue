@@ -28,6 +28,31 @@
     text-decoration: line-through;
 }
 
+.images {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.images img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.work-title {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 600px) {
     .content {
         width: 60vw;

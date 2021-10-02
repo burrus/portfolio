@@ -1,9 +1,9 @@
 <template>
-    <div class="stormy">
+    <div class="work">
         <Header :showBackButton=true />
         <div class="content">
             <p>
-                <span class="title">Stormy</span> 
+                <span class="work-title">Stormy</span> 
                 was a single-page weather app that allowed you to quickly grab the 
                 weather forecast from anywhere in the world. I used the 
                 <a href="https://darksky.net/dev" target="_blank">Dark Sky Weather API</a> 
@@ -11,10 +11,10 @@
                 <a href="https://teamtreehouse.com/burrus" target="_blank">Treehouse</a>, 
                 but I expanded upon it by adding several other features.
             </p>
-            <!-- <div class="ios">
-                <img src="@/assets/img/stormy-1.png" alt="stormy-1">
-                <img src="@/assets/img/stormy-2.png" alt="stormy-2">
-            </div> -->
+            <div class="images" v-viewer="{transition: false}">
+                <img src="@/assets/img/stormy-1.png" alt="Home screen with weather forecast">
+                <img src="@/assets/img/stormy-2.png" alt="City search">
+            </div>
         </div>
         <Footer />
     </div>
@@ -23,6 +23,11 @@
 <script>
 import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
+
+import "viewerjs/dist/viewer.css"
+import VueViewer from "v-viewer"
+import Vue from "vue"
+Vue.use(VueViewer)
 
 export default {
     name: "Stormy",
@@ -34,26 +39,4 @@ export default {
 </script>
 
 <style scoped>
-    .stormy {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
-    .title {
-        color: black;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .ios {
-        margin-top: 25px;
-        text-align: center;
-    }
-
-    img {
-        max-width: 200px;
-        padding: 10px;
-    }
 </style>

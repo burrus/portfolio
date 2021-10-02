@@ -1,9 +1,9 @@
 <template>
-    <div class="forcely">
+    <div class="work">
         <Header :showBackButton=true />
         <div class="content">
             <p>
-                <span class="title">Forcely</span> 
+                <span class="work-title">Forcely</span> 
                 provided code enforcement officers with a quick and easy way to log their day to day activities.
             </p>
             <p>
@@ -22,12 +22,12 @@
                 <a href="https://goo.gl/Pv5rj7" target="_blank"> city</a> 
                 using the platform for a while.
             </p>
-            <!-- <div class="ios">
-                <img src="@/assets/img/forcely-1.jpg" alt="forcely-1">
-                <img src="@/assets/img/forcely-2.jpg" alt="forcely-2">
-                <img src="@/assets/img/forcely-3.jpg" alt="forcely-3">
-                <img src="@/assets/img/forcely-4.jpg" alt="forcely-4">
-            </div> -->
+            <div class="images" v-viewer="{transition: false}">
+                <img src="@/assets/img/forcely-1.jpg" alt="App onboarding flow 1/4">
+                <img src="@/assets/img/forcely-2.jpg" alt="App onboarding flow 2/4">
+                <img src="@/assets/img/forcely-3.jpg" alt="App onboarding flow 3/4">
+                <img src="@/assets/img/forcely-4.jpg" alt="App onboarding flow 4/4">
+            </div>
         </div>
         <Footer />
     </div>
@@ -36,6 +36,11 @@
 <script>
 import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
+
+import "viewerjs/dist/viewer.css"
+import VueViewer from "v-viewer"
+import Vue from "vue"
+Vue.use(VueViewer)
 
 export default {
     name: "Forcely",
@@ -47,26 +52,4 @@ export default {
 </script>
 
 <style scoped>
-    .forcely {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
-    .title {
-        color: black;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .ios {
-        margin-top: 25px;
-        text-align: center;
-    }
-
-    img {
-        max-width: 150px;
-        padding: 10px;
-    }
 </style>

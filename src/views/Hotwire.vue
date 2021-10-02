@@ -1,9 +1,9 @@
 <template>
-    <div class="hotwire">
+    <div class="work">
         <Header :showBackButton=true />
         <div class="content">
             <p>
-                <span class="title">Hotwire</span> 
+                <span class="work-title">Hotwire</span> 
                 helps you get great deals on name-brand hotels and car rentals around the world 
                 at a fraction of the price.
             </p>
@@ -21,14 +21,14 @@
                 for me as it was the first time I built a web app from scratch. I was responsible for all the research,
                 design, and front-end development on this project.
             </p>
-            <div class="images">
-                <img src="@/assets/img/thmb/hw-liveperson-1-thmb.png" alt="hotwire-liveperson-1">
-                <img src="@/assets/img/thmb/hw-liveperson-2-thmb.png" alt="hotwire-liveperson-2">
-                <img src="@/assets/img/thmb/hw-reviews-1-thmb.png" alt="hotwire-reviews-1">
-                <img src="@/assets/img/thmb/hw-reviews-2-thmb.png" alt="hotwire-reviews-2">
-                <img src="@/assets/img/thmb/hw-automation-1-thmb.png" alt="hotwire-automation-1">
-                <img src="@/assets/img/thmb/hw-automation-2-thmb.png" alt="hotwire-automation-2">
-                <img src="@/assets/img/thmb/hw-automation-3-thmb.png" alt="hotwire-automation-3">
+            <div class="images" v-viewer="{transition: false}">
+                <img src="@/assets/img/hw-liveperson-1.png" alt="In-app messaging (LivePerson) for customer service">
+                <img src="@/assets/img/hw-liveperson-2.png" alt="In-app messaging (LivePerson) for customer service">
+                <img src="@/assets/img/hw-reviews-1.png" alt="hotwire-reviews-1">
+                <img src="@/assets/img/hw-reviews-2.png" alt="hotwire-reviews-2">
+                <img src="@/assets/img/hw-automation-1.png" alt="hotwire-automation-1">
+                <img src="@/assets/img/hw-automation-2.png" alt="hotwire-automation-2">
+                <img src="@/assets/img/hw-automation-3.png" alt="hotwire-automation-3">
             </div>
         </div>
         <Footer />
@@ -38,6 +38,11 @@
 <script>
 import Footer from "@/components/Footer.vue"
 import Header from "@/components/Header.vue"
+
+import "viewerjs/dist/viewer.css"
+import VueViewer from "v-viewer"
+import Vue from "vue"
+Vue.use(VueViewer)
 
 export default {
     name: "Hotwire",
@@ -49,26 +54,4 @@ export default {
 </script>
 
 <style scoped>
-    .hotwire {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
-    .title {
-        color: black;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .images {
-        margin: 50px 0;
-        text-align: center;
-    }
-
-    img {
-        max-width: 50px;
-        padding: 10px;
-    }
 </style>
