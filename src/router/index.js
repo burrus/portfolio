@@ -40,6 +40,11 @@ const routes = [
         name: "HotelTonight",
         component: () => import("../views/HotelTonight.vue"),
     },
+    {
+        path: "/airbnb",
+        name: "Airbnb",
+        component: () => import("../views/Airbnb.vue"),
+    },
 ]
 
 const router = new VueRouter({

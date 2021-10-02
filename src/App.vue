@@ -40,6 +40,10 @@
     padding: 10px;
 }
 
+.images img:hover {
+    cursor: pointer;
+}
+
 .work {
     display: flex;
     flex-direction: column;
