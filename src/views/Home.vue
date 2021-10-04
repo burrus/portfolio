@@ -15,10 +15,10 @@
                 <router-link to="/hotwire" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
             </li>
             <li>
-                <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement logging app.</router-link>
+                <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement app.</router-link>
             </li>
             <li>
-                <router-link to="/stormy" class="list"><b>Stormy.</b> A single-page weather app.</router-link>
+                <router-link to="/stormy" class="list"><b>Stormy.</b> A weather app.</router-link>
             </li>
             <li>
                 <router-link to="/hail" class="list"><b>Hail.</b> A WWDC scholarship app.</router-link>
@@ -88,6 +88,7 @@ export default {
     }
 
     li {
+        font-size: 0.82em;
         margin: 20px 0;
     }
 
@@ -106,6 +107,19 @@ export default {
 
     .title {
         color: black;
+        font-size: 1em;
         text-decoration: underline;
+    }
+
+    @media only screen and (min-width: 600px) {
+        li {
+            font-size: 0.95em;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        li {
+            font-size: 1em;
+        }
     }
 </style>
