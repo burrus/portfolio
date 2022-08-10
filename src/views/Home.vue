@@ -88,7 +88,7 @@ export default {
     }
 
     li {
-        font-size: 0.82em;
+        font-size: 0.84em;
         margin: 20px 0;
     }
 
