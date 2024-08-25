@@ -16,6 +16,10 @@ jobs:
       run: |
         npm install --legacy-peer-deps
         npm run build
+      env:
+        VUE_APP_ZOHO_SERVICE_ID: ${{ secrets.VUE_APP_ZOHO_SERVICE_ID }}
+        VUE_APP_ZOHO_TEMPLATE_ID: ${{ secrets.VUE_APP_ZOHO_TEMPLATE_ID }}
+        VUE_APP_ZOHO_USER_ID: ${{ secrets.VUE_APP_ZOHO_USER_ID }}
     - name: Deploy
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
       uses: peaceiris/actions-gh-pages@v3
