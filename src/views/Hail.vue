@@ -10,7 +10,7 @@
             </p>
             <p>
                 Hail was built in conjunction with my 
-                <a href="https://developer.apple.com/wwdc/scholarships/" target="_blank">WWDC scholarship</a>
+                <a href="https://techcrunch.com/2015/04/15/to-promote-diversity-apple-increases-the-number-of-wwdc-scholarships/" target="_blank">WWDC scholarship</a>
                 application. I applied for one of the WWDC scholarships through an organization known as the 
                 <a href="https://www.tmcf.org/" target="_blank">Thurgood Marshall College Fund</a> 
                 back in 2015. I was lucky enough to have been selected for one of the scholarships and got to 
