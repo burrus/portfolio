@@ -14,15 +14,23 @@
             <li>
                 <router-link to="/hotwire" class="list"><b>Hotwire.</b> May 2016 - February 2019.</router-link>
             </li>
-            <li>
-                <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement app.</router-link>
-            </li>
-            <li>
-                <router-link to="/stormy" class="list"><b>Stormy.</b> A weather app.</router-link>
-            </li>
-            <li>
-                <router-link to="/hail" class="list"><b>Hail.</b> A WWDC scholarship app.</router-link>
-            </li>
+            <div class="ios-apps">
+                <li class="title">
+                    <b>Apps</b>
+                </li>
+                <li>
+                    <router-link to="/alchemy" class="list"><b>Alchemy.</b> A ChatGPT client.</router-link>
+                </li>
+                <li>
+                    <router-link to="/forcely" class="list"><b>Forcely.</b> A code enforcement app.</router-link>
+                </li>
+                <li>
+                    <router-link to="/stormy" class="list"><b>Stormy.</b> A weather app.</router-link>
+                </li>
+                <li>
+                    <router-link to="/hail" class="list"><b>Hail.</b> A WWDC scholarship app.</router-link>
+                </li>
+            </div>
             <div class="contact">
                 <li class="title">
                     <b>Contact</b>
@@ -92,7 +100,7 @@ export default {
         margin: 20px 0;
     }
 
-    .contact {
+    .ios-apps, .contact {
         margin-top: 50px;
     }
 

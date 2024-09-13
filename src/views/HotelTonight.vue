@@ -9,9 +9,9 @@
             <p>
                 As an 
                 <a href="https://apps.apple.com/us/app/hoteltonight-hotel-deals/id407690035" target="_blank">iOS</a> 
-                engineer here I worked on implementing the <i>Weekend Escapes</i> feature, the 
+                engineer here, I worked on implementing the <i>Weekend Escapes</i> feature, the 
                 <i>Account Achievements</i> section, and the <i>Sift</i> implementation (fraud protocol) to name a few.
-                I also did some work for the Web team implementing the <i>Seasonal Sweepstakes</i> form that was used by more 
+                I also did some work for the Web team implementing the <i>Seasonal Sweepstakes</i> form in React that was used by more 
                 than 80k people in its first month.
             </p>
             <p>

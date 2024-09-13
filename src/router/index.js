@@ -31,6 +31,11 @@ const routes = [
         component: () => import("../views/Forcely.vue"),
     },
     {
+        path: "/alchemy",
+        name: "Alchemy",
+        component: () => import("../views/Alchemy.vue"),
+    },
+    {
         path: "/hotwire",
         name: "Hotwire",
         component: () => import("../views/Hotwire.vue"),

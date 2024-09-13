@@ -8,9 +8,7 @@
             </p>
             <p>
                 This is a company I started in 2018 to reduce the amount of inefficiencies in 
-                local government. I conducted research, designed, and built the entire 
-                <a href="https://itunes.apple.com/US/app/id1420946432?mt=8" target="_blank">app</a> 
-                myself using Google’s 
+                local government. I conducted research, designed, and built the entire app myself using Google’s 
                 <a href="https://firebase.google.com/docs/firestore/" target="_blank">Firestore</a> 
                 as the back-end. I also built a web dashboard in 
                 <a href="https://angular.io/" target="blank">angular</a> 

@@ -8,27 +8,26 @@
                 world - all made possible by hosts.
             </p>
             <p>
-                As a software engineer here I've done most of my work in 
-                <a href="https://samara.com/" target="_blank">Samara</a>, 
-                an R&amp;D division within Airbnb. I spent a lot of time doing backend work (Python/Django) 
-                as well as frontend work (Javascript/Vue). However, this year I'm back to doing mostly iOS work.
+                As an iOS engineer here, I lead the development of the 
+                <a href="https://news.airbnb.com/smart-lock-integrations-available-to-all-us-and-canada-hosts/" target="_blank">smart lock integration feature </a>
+                for hosts and guests. This initiative is a significant part of Airbnb’s strategy to onboard millions of new hosts. 
+                Initially, the project began as an R&D exploration in our Special Projects division. During its early stages, 
+                I was responsible for designing and building an iOS prototype that communicated with real smart locks via 
+                local networking. This prototype was shown to the CEO, co-founders, and other executives several times, which 
+                ultimately led to the project’s approval.
             </p>
             <p>
-                Unfortunately due to the confidential nature of this project I can't share any product images, 
-                but here are a few photos of me hosting an internal employee experience. It was called 
-                <i>An Afternoon with the Piano</i> where I held a brief music workshop followed by a 
-                <a href="https://www.instagram.com/p/B2F5ZU0nRiv/" target="_blank">performance</a> 
-                of some of my 
-                <a href="https://www.instagram.com/p/B796isrnYQK/" target="_blank">favorite </a>
-                <a href="https://www.instagram.com/p/COG2aWxnIFy/" target="_blank">piano </a>
-                <a href="https://www.instagram.com/p/B5jJvbDnCFh/" target="_blank">pieces</a>.
-                Enjoy! 😄
+                We are now integrated with three smart lock vendors: August, Schlage, and Yale. Hosts can use the 
+                <a href="https://apps.apple.com/us/app/airbnb/id401626263" target="_blank">Airbnb app</a> 
+                to link their smart lock to a listing. Once connected, Airbnb manages the smart lock’s access codes for each 
+                reservation, including sending the guest their access code, notifying the host when the guest checks in, and 
+                removing the access code once the reservation is complete.
             </p>
             <div class="images" v-viewer="{transition: false}">
-                <img src="@/assets/img/airbnb-1.jpg" alt="An Afternoon with the Piano 1/4">
-                <img src="@/assets/img/airbnb-2.jpg" alt="An Afternoon with the Piano 2/4">
-                <img src="@/assets/img/airbnb-3.jpg" alt="An Afternoon with the Piano 3/4">
-                <img src="@/assets/img/airbnb-4.jpg" alt="An Afternoon with the Piano 4/4">
+                <img src="@/assets/img/airbnb-1.jpg" alt="Airbnb smart lock host setup">
+                <img src="@/assets/img/airbnb-2.jpg" alt="Airbnb smart lock host post-setup">
+                <img src="@/assets/img/airbnb-3.jpg" alt="Airbnb smart lock host management">
+                <img src="@/assets/img/airbnb-4.jpg" alt="Airbnb smart lock guest views">
             </div>
         </div>
         <Footer />
