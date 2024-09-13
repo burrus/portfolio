@@ -4,7 +4,7 @@ module.exports = {
         es6: true,
     },
     extends: ["plugin:vue/essential"],
-    parserOptions: { "parser": "babel-eslint" },
+    parserOptions: { "parser": "@babel/eslint-parser" },
     rules: {
         indent: ["error", 4, { SwitchCase: 1 }],
         quotes: ["error", "double"],
