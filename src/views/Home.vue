@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <Header />
+        <HeaderComponent />
         <ul>
             <li class="title">
                 <b>Work</b>
@@ -43,20 +43,20 @@
                 </li>
             </div>
         </ul>
-        <Footer />
+        <FooterComponent />
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Footer from "@/components/Footer.vue"
-import Header from "@/components/Header.vue"
+import FooterComponent from "@/components/Footer.vue"
+import HeaderComponent from "@/components/Header.vue"
 
 export default {
-    name: "Home",
+    name: "HomePage",
     components: {
-        Footer,
-        Header,
+        FooterComponent,
+        HeaderComponent,
     },
     created() {
         this.getIpAddress()

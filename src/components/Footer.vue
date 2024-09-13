@@ -8,21 +8,21 @@
                 <a href="https://github.com/burrus" target="_blank">
                     <img alt="GitHub logo" src="@/assets/icons/github.svg" />
                 </a>
-                <a href="https://linkedin.com/burrus" target="_blank">
+                <a href="https://linkedin.com/in/burrus" target="_blank">
                     <img alt="LinkedIn logo" src="@/assets/icons/linkedin.svg" />
                 </a>
             </div>
         </div>
-        <OpenSource />
+        <OpenSourceComponent />
     </div>
 </template>
 
 <script>
-import OpenSource from "@/components/OpenSource.vue"
+import OpenSourceComponent from "@/components/OpenSource.vue"
 export default {
-    name: "Footer",
+    name: "FooterComponent",
     components: {
-        OpenSource,
+        OpenSourceComponent,
     },
 }
 </script>

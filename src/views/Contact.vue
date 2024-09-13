@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <Header :showBackButton="true" />
+        <HeaderComponent :showBackButton="true" />
         <div class="form-content">
             <form id="contact" @submit.prevent="sendEmail">
                 <div class="fields">
@@ -30,20 +30,20 @@
                 </div>
             </form>
         </div>
-        <Footer />
+        <FooterComponent />
     </div>
 </template>
 
 <script>
 import emailjs from "emailjs-com"
-import Footer from "@/components/Footer.vue"
-import Header from "@/components/Header.vue"
+import FooterComponent from "@/components/Footer.vue"
+import HeaderComponent from "@/components/Header.vue"
 
 export default {
-    name: "Contact",
+    name: "ContactPage",
     components: {
-        Footer,
-        Header,
+        FooterComponent,
+        HeaderComponent,
     },
     data() {
         return {

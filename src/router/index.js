@@ -7,47 +7,47 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: "/",
-        name: "Home",
+        name: "HomePage",
         component: Home,
     },
     {
         path: "/contact",
-        name: "Contact",
+        name: "ContactPage",
         component: () => import("../views/Contact.vue"),
     },
     {
         path: "/hail",
-        name: "Hail",
+        name: "HailPage",
         component: () => import("../views/Hail.vue"),
     },
     {
         path: "/stormy",
-        name: "Stormy",
+        name: "StormyPage",
         component: () => import("../views/Stormy.vue"),
     },
     {
         path: "/forcely",
-        name: "Forcely",
+        name: "ForcelyPage",
         component: () => import("../views/Forcely.vue"),
     },
     {
         path: "/alchemy",
-        name: "Alchemy",
+        name: "AlchemyPage",
         component: () => import("../views/Alchemy.vue"),
     },
     {
         path: "/hotwire",
-        name: "Hotwire",
+        name: "HotwirePage",
         component: () => import("../views/Hotwire.vue"),
     },
     {
         path: "/hoteltonight",
-        name: "HotelTonight",
+        name: "HotelTonightPage",
         component: () => import("../views/HotelTonight.vue"),
     },
     {
         path: "/airbnb",
-        name: "Airbnb",
+        name: "AirbnbPage",
         component: () => import("../views/Airbnb.vue"),
     },
 ]

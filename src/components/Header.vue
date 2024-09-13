@@ -19,7 +19,7 @@
 
 <script>
 export default {
-    name: "Header",
+    name: "HeaderComponent",
     props: {
         showBackButton: Boolean,
     },

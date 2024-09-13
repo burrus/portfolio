@@ -1,6 +1,6 @@
 <template>
     <div class="work">
-        <Header :showBackButton=true />
+        <HeaderComponent :showBackButton=true />
         <div class="content">
             <p>
                 <span class="work-title">Hail</span> 
@@ -21,13 +21,13 @@
                 <img src="@/assets/img/wwdc-2.png" alt="Me at WWDC '15">
             </div>
         </div>
-        <Footer />
+        <FooterComponent />
     </div>
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue"
-import Header from "@/components/Header.vue"
+import FooterComponent from "@/components/Footer.vue"
+import HeaderComponent from "@/components/Header.vue"
 
 import "viewerjs/dist/viewer.css"
 import VueViewer from "v-viewer"
@@ -35,10 +35,10 @@ import Vue from "vue"
 Vue.use(VueViewer)
 
 export default {
-    name: "Hail",
+    name: "HailPage",
     components: {
-        Footer,
-        Header,
+        FooterComponent,
+        HeaderComponent,
     },
 }
 </script>

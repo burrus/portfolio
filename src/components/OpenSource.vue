@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: "OpenSource",
+    name: "OpenSourceComponent",
 }
 </script>
 
